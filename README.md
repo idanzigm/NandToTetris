@@ -23,4 +23,4 @@ This structure is capable of taking binary code and executing it. However for ea
 
 ![Alt text](https://github.com/idanzigm/NandToTetris/blob/main/screen%20shots%20/Screenshot%20from%202026-02-24%2013-22-36.png)
 
-The next steps of this project are to develop a Java like language and an operating system to run it on. To this end we need a virtual machine to run on the computer and we need a compiler, then finall an OS. These are the challenges tackled in the second half of the book and I'm developing them now. 
+The next steps of this project are to develop a Java like language and an operating system to run it on. To this end we need a virtual machine to run on the computer and we need a compiler, then finaly an OS. These are the challenges tackled in the second half of the book and I'm developing them now. 
