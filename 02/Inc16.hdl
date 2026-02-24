@@ -1,0 +1,32 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/02/Inc16.hdl
+/**
+ * 16-bit incrementer:
+ * out = in + 1
+ */
+CHIP Inc16 {
+    IN in[16];
+    OUT out[16];
+
+    PARTS:
+    Xor(a=in[0] , b=in[0] , out=neq1); 
+    Not(in=neq1 , out=neq2); 
+    HalfAdder(a=in[0] , b=neq2 , sum=out[0] , carry=neq3); 
+    HalfAdder(a=in[1] , b=neq3 , sum=out[1], carry=neq4); 
+    HalfAdder(a=in[2] , b=neq4 , sum=out[2] , carry=neq5); 
+    HalfAdder(a=in[3] , b=neq5 , sum=out[3], carry=neq6); 
+    HalfAdder(a=in[4] , b=neq6 , sum=out[4] , carry=neq7); 
+    HalfAdder(a=in[5] , b=neq7 , sum=out[5], carry=neq8); 
+    HalfAdder(a=in[6] , b=neq8 , sum=out[6] , carry=neq9); 
+    HalfAdder(a=in[7] , b=neq9 , sum=out[7], carry=neq10); 
+    HalfAdder(a=in[8] , b=neq10 , sum=out[8] , carry=neq11); 
+    HalfAdder(a=in[9] , b=neq11 , sum=out[9], carry=neq12); 
+    HalfAdder(a=in[10] , b=neq12 , sum=out[10] , carry=neq13); 
+    HalfAdder(a=in[11] , b=neq13 , sum=out[11], carry=neq14); 
+    HalfAdder(a=in[12] , b=neq14 , sum=out[12] , carry=neq15); 
+    HalfAdder(a=in[13] , b=neq15 , sum=out[13], carry=neq16); 
+    HalfAdder(a=in[14] , b=neq16 , sum=out[14] , carry=neq17); 
+    HalfAdder(a=in[15] , b=neq17 , sum=out[15], carry=neq18); 
+}
