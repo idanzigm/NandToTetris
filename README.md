@@ -13,7 +13,7 @@ CHIP And {
     Nand(a = neq1 , b = neq1 , out = out);    
     }   
    
-The Truth table will summarize as follows; if A=1 and B=1 then neq1 will output 0, else output 1 (it is not A and B). This result once fed into the second nand gate will return 1 if neq1 is equal to 0, which is only the case under the condition that a=1 and b=1 (all other conditions as stated earlier produce and neq1 of 1). Yielding the proper conditions of the And gate. Thus it is made. Like wise we build a variety of chips including Or gates, Not gates, Xor gates, Demultiplexers, and Multiplexers, and from those built 8 and 16 way versions of each. These are the base components of the computer.   
+The Truth table will summarize as follows; if A=1 and B=1 then neq1 will output 0, else output 1 (as it is not A and B). This result once fed into the second nand gate will return 1 to the 'out' variable if and only if neq1 is equal to 0, which is only the case under the condition that a=1 and b=1 (all other conditions, as stated earlier, produce an neq1 of 1 which will return 0 to the 'out' variable). Yielding the proper conditions of the And gate. Thus it is made. Like wise we build a variety of chips including Or gates, Not gates, Xor gates, Demultiplexers, and Multiplexers, and from those built 8 and 16 way versions of each. These are the base components of the computer.   
 
 From these we build the harware of the computer in the below architecture.    
 
