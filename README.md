@@ -14,9 +14,13 @@ CHIP And {
     }   
    
 The Truth table will summarize as if A=1 anb B=1 then it will out put 0, else output 1. Feed this result into into Nand again and it will either be 0 and 0 or 1 and 1, if a=1 and b=1 been the condition of the And chip then it will output 1 else it will output 0. Like wise we build a variety of chips including Or gates, Not gates, Xor gates, Demultiplexers, and Multiplexers, and from those built 8 and 16 way versions of each. These are the components of the computer.   
-   
+
+!Alt[https://github.com/idanzigm/NandToTetris/blob/main/screen%20shots%20/Screenshot%20from%202026-02-24%2013-22-36.png]
+
 From these we build the harware of the computer in the below architecture.    
 
+
+!Alt[https://github.com/idanzigm/NandToTetris/blob/main/screen%20shots%20/Untitled.jpeg]
 
 This structure is capable of taking binary code and executing it. However for ease of use we develop an asembler in python to translate assemply language into bit wise code. This is the result of an application which draws a rectangle on the screen written in assembly but translated in into byte code and run on a CPU emulator.   
 
