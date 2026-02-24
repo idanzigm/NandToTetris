@@ -7,7 +7,7 @@ This project takes you through the process of building a tetric game out of Nand
 CHIP And {   
     IN a, b;   
     OUT out;   
-       
+
     PARTS:   
     Nand(a = a , b = b , out = neq1);    
     Nand(a = neq1 , b = neq1 , out = out);    
