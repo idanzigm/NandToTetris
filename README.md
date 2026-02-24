@@ -17,10 +17,10 @@ The Truth table will summarize as follows; if A=1 and B=1 then neq1 will output 
 
 From these we build the harware of the computer in the below architecture.    
 
-![Alt text](https://github.com/idanzigm/NandToTetris/blob/main/screen%20shots%20/Screenshot%20from%202026-02-24%2013-22-36.png)
+![Alt text](https://github.com/idanzigm/NandToTetris/blob/main/screen%20shots%20/Untitled.jpeg)
 
 This structure is capable of taking binary code and executing it. However for ease of use we develop an asembler in python to translate assemply language into bit wise code. This is the result of an application which draws a rectangle on the screen written in assembly but translated in into byte code and run on the CPU emulator.   
 
-![Alt text](https://github.com/idanzigm/NandToTetris/blob/main/screen%20shots%20/Untitled.jpeg)
+![Alt text](https://github.com/idanzigm/NandToTetris/blob/main/screen%20shots%20/Screenshot%20from%202026-02-24%2013-22-36.png)
 
 The next steps of this project are to develop a Java like language and an operating system to run it on. To this end we need a virtual machine to run on the computer and we need a compiler, then finall an OS. These are the challenges tackled in the second half of the book and I'm developing them now. 
